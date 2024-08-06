@@ -1,0 +1,13 @@
+<vbox style="padding: 5px;">
+    <tree-view id="tv1" width="360" height="200" styleName="full-width">
+        <item-renderer width="100%">
+            <hbox width="100%">
+                <image id="icon" verticalAlign="center"/>
+                <label id="text" width="100%" verticalAlign="center"/>
+                <button text="button"/>
+            </hbox>
+        </item-renderer>
+    </tree-view>
+
+    <button id="findNodeButton" text="Find Node" />
+</vbox>
